@@ -8,7 +8,7 @@ export async function GET(request) {
     try {
         users=await User.find();
     } catch (error) {
-        returnNextResponse.json({
+        return NextResponse.json({
             message: "Failed to fetch users",
             error: error.message,
         });
