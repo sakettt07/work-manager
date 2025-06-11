@@ -11,8 +11,8 @@ const Footer = () => {
           fugiat 
         </p>
       </div>
-      <div className="">
-        <ul>
+      <div>
+        <ul  className="flex gap-5">
             <li>Important Links</li>
             <li>Instagram</li>
             <li>Facebook</li>
